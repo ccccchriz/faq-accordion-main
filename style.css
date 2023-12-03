@@ -91,3 +91,45 @@ textarea:not([rows]) {
 .hidden {
   display: none;
 }
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("assets/fonts/static/WorkSans-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("assets/fonts/static/WorkSans-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("assets/fonts/static/WorkSans-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.faq {
+  font-family: "Work Sans", sans-serif;
+}
+
+.faq__title {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 2rem;
+}
+
+.faq__title::before {
+  content: "";
+  display: inline;
+  background-image: url(assets/images/icon-star.svg);
+  width: 2.5rem;
+  height: 2.5625rem;
+  background-size: 2.5rem 2.5625rem;
+}
