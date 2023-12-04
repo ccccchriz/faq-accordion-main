@@ -121,6 +121,8 @@ main {
   padding-bottom: 0;
   margin: 1rem;
   border-radius: 0.5625rem;
+  width: 100%;
+  max-width: 35rem;
 }
 
 .faq__title {
@@ -154,6 +156,7 @@ main {
   align-items: center;
   background-color: transparent;
   border: none;
+  gap: 1rem;
 
   font-weight: var(--fw-semibold);
   cursor: pointer;
@@ -177,10 +180,5 @@ main {
 @media (min-width: 40rem) {
   main {
     background-image: url(assets/images/background-pattern-desktop.svg);
-  }
-
-  .faq {
-    width: 100%;
-    max-width: 45rem;
   }
 }
