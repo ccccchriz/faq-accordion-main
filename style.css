@@ -103,7 +103,7 @@ h6 {
 main {
   min-height: 100vh;
   min-height: 100dvh;
-  display: grid;
+  display: flex;
   justify-content: center;
   padding-top: 5rem;
 
@@ -181,6 +181,6 @@ main {
 
   .faq {
     width: 100%;
-    max-width: 39rem;
+    max-width: 45rem;
   }
 }
