@@ -181,4 +181,8 @@ main {
   main {
     background-image: url(assets/images/background-pattern-desktop.svg);
   }
+
+  .faq {
+    padding: 2rem;
+  }
 }
